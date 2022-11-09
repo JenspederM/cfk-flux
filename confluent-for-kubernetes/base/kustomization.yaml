@@ -1,0 +1,6 @@
+resources:
+  - pod.yaml
+
+commonLabels:
+  app: confluent-for-kubernetes
+

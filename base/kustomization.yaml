@@ -1,7 +1,0 @@
-resources:
-  - namespace.yaml
-helmCharts:
-  - name: confluent-for-kubernetes
-    releaseName: cfk-operator
-    namespace: confluent-for-kubernetes
-    includeCRDs: true

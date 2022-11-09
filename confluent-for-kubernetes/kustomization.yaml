@@ -1,0 +1,13 @@
+resources:
+  - ./development
+  - ./staging
+  - ./production
+
+helmGlobals:
+  chartHome: "./charts"
+
+helmCharts:
+  - name: confluent-for-kubernetes
+    releaseName: cfk-operator
+    namespace: cfk-operator
+    includeCRDs: true
